@@ -1,0 +1,65 @@
+body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.btn-modern {
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color:aqua;
+    color: rgb(13, 20, 236);
+    border-bottom: 2px solid blueviolet;
+    cursor: pointer;
+    transition: background-color 150ms;
+}
+
+.btn-modern:hover {
+    background-color: deeppink;
+    color: black;
+    box-shadow: 10px 5px 5px black;
+    border-bottom: 2px solid white;
+    transform: translateY(-5px);
+    transition: transform 0.4s
+}
+
+
+
+/*.padre {
+    width: 300px;
+    height: 300px;
+    background-color: aqua;
+}
+
+.hijo{
+    width: 150px;
+    height: 150px;
+    background-color:deeppink;
+}
+
+.padre:hover .hijo{
+    animation: traslacion 1s ease-in-out forwards;
+}
+
+@keyframes traslacion {
+    0% {
+        background-color: blueviolet ;
+        transform: translateX(100%);
+    }
+    50%{
+        background-color: blueviolet ;
+        transform: translateX(100%);
+    }
+    70%{
+        background-color: blueviolet ;
+        transform: translateY(50%);
+    }
+    100%{
+        background-color: blueviolet ;
+        transform: translateY(100%);
+    }
+}*/
