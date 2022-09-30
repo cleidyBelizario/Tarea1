@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilosFormularios.css">
+    <title>Login Form</title>
+</head>
+<body>
+    <div class="container">
+        <h2> Registrate en el siguiente formulario</h2>
+        <div class="buttons">
+            <button class="google-btn">
+                <picture>
+                    <img src="./Multimedia/logoGoogle.png" alt="logo google"/>
+                </picture>
+                <span> Registrate con Google </span>
+            </button>
+            <button class="twitter-btn">
+                    <picture>
+                        <img src="./Multimedia/twitter.png" alt="logo twitter"/>
+                    </picture>
+                    <span> T </span>
+                </button>
+        </div>
+        <div class="separador">
+        <hr> 
+        <span> O... </span>
+        <hr>
+    </div>
+    <form action="" method="">
+        <div class="section-inputs">
+            <label for="name">
+                <span>Name</span>
+                <input id="name" name="name"/>
+            </label>
+            <label>
+                <span> Username</span>
+                <input id="userName" name="userName"/>
+            </label>
+        </div>
+        <label for="email">
+            <span>Email</span>
+            <input id="email" name="email"/>
+        </label>
+        <label for="password">
+            <span>Password</span>
+            <input id="password" name="password" placeholder="6+ Caracteres"/>
+        </label>
+        <label for="checkbox" class="checkbox">
+            <input type="checkbox" id="checkbox" class="checkbox"/>
+            <span> Acepto los terminos y condiciones y el aviso legal</span>
+        </label>
+        <button type="submit" class="submit-btn"> Crear Cuenta </button>
+    </form>
+    </div>
+</body>
+</html>
