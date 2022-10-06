@@ -1,9 +1,15 @@
+body {
+    min-height: 100vh;
+    min-width: 100vw;
+    display: flex;
+    font-size: 2rem;
+}
+
 .contenedor{
     display: flex;
     background-color: rgba(253, 127, 255, 0.232);
     gap: 1rem;
     flex-direction: column;
-    width: 50%;
 }
 
 .item {
@@ -13,18 +19,29 @@
 }
 
 .seccionP {
-    margin-left: auto;
-    flex-grow: 4;
-    background-color: black;
+    padding: 10px;
+    flex-grow: 1;
     
 }
 
 @media (max-width: 640px) {
-    .contenedor{
-        display: flex;
-        flex-direction: row;
+
+    body {
+        flex-direction: column-reverse;
     }
-    .seccionP {
-        background-color:darkmagenta;
+    .seccionP{
+        display: flex;
+        color:blueviolet;
+        min-height: 10vh;
+        min-width: 100vw;
+        margin-top: 10rem;
+
+    }    
+    .contenedor{
+        flex-direction: row;
+        align-items: center;
+        width: 100%;
+        height: 100%;
     }
 }
+
