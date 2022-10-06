@@ -1,0 +1,30 @@
+.contenedor{
+    display: flex;
+    background-color: rgba(253, 127, 255, 0.232);
+    gap: 1rem;
+    flex-direction: column;
+    width: 50%;
+}
+
+.item {
+    background-color:blueviolet;
+    padding: 0.25rem;
+    color: aliceblue;
+}
+
+.seccionP {
+    margin-left: auto;
+    flex-grow: 4;
+    background-color: black;
+    
+}
+
+@media (max-width: 640px) {
+    .contenedor{
+        display: flex;
+        flex-direction: row;
+    }
+    .seccionP {
+        background-color:darkmagenta;
+    }
+}
